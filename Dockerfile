@@ -1,5 +1,5 @@
 FROM node:18-alpine
-EXPOSE 8000
+EXPOSE 5173
 WORKDIR /foodApp
 COPY public/ /foodApp/public
 COPY src/ /foodApp/src
